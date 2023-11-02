@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Anuphan', sans-serif;
+    background-color: #FFF2CC;
+}
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF2CC;
+    color: #ba855d;
+    padding: 15px;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.25rem;
+}
+nav a {
+    display: inline;
+    padding: 0 30px;
+}
+    
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ba855d;
+    
+}
+
+nav a:hover {
+    color: #F4B183;
+}
+
+/* Motto Section */
+
+.mottos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    font-size: 30px;
+}
+
+.motto {
+    text-align: center;
+    
+}
+
+.motto1 {
+    background-color: #FFD966;
+    color:#a25f32;
+
+}
+
+.motto2 {
+    background-color: #F4B183;
+    color:#b57b4e;
+    
+}
+
+.motto3 {
+    background-color: #a25f32;
+    color:#FFD966;
+}
+
+/* Main Section */
+
+.indextext {
+    background-color: #FFF2CC;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+.indeximg img {
+    width: 100%;
+}
+
+/* Footer Section */
+
+footer {
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.708);
+}
+
+
+
+
