@@ -94,3 +94,24 @@ footer img {
     width: 350px;
     border-radius: 10px;
 }
+
+/* Hotelek Page */
+
+.hotelekmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #cceced;
+    padding: 10px;
+}
+
+.hotelekbox {
+    padding: 20px;
+    text-align: center;
+}
+
+.hotelekbox img {
+    width: 350px;
+    border-radius: 10px;
+}
