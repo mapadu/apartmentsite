@@ -116,3 +116,74 @@ footer img {
     width: 350px;
     border-radius: 10px;
 }
+
+/* Programok Page */
+
+.programokmain { 
+    background-color: #cceced;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.programokbox {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programokbox h2 {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.box1 {
+    background-image: url(./images/bor.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.box2 {
+    background-image: url(./images/kocsma.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3 {
+    background-image: url(./images/gasztro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.programoktext {
+    background-color:white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.programoklink {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #cceced;
+}
+
+.programoklinkbox img {
+    width: 250px;
+    border-radius: 10px;
+    
+}
+
+.programoklinkbox {
+    padding: 10px;
+}
