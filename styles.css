@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Anuphan', sans-serif;
-    background-color: #FFF2CC;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header Section */
@@ -9,84 +8,64 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #FFF2CC;
-    color: #ba855d;
-    padding: 15px;
     align-items: center;
+    padding: 15px;
 }
 
-header h1 {
-    font-size: 2.25rem;
+.logo {
+    width: 300px;
 }
+    
 nav a {
     display: inline;
-    padding: 0 30px;
-}
-    
-
-nav a {
+    padding: 30px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #ba855d;
-    
+    color: black;
+    font-size: 17px;
 }
 
 nav a:hover {
-    color: #F4B183;
-}
-
-/* Motto Section */
-
-.mottos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    font-size: 30px;
-}
-
-.motto {
-    text-align: center;
-    
-}
-
-.motto1 {
-    background-color: #FFD966;
-    color:#a25f32;
-
-}
-
-.motto2 {
-    background-color: #F4B183;
-    color:#b57b4e;
-    
-}
-
-.motto3 {
-    background-color: #a25f32;
-    color:#FFD966;
+    border: 1px solid #cceced;
+    border-radius: 8px;
+    background-color: #cceced;
 }
 
 /* Main Section */
 
 .indextext {
-    background-color: #FFF2CC;
+    background-color:#cceced;
     display: flex;
     align-items: center;
     padding: 15px;
-    color: rgba(0, 0, 0, 0.708);
 }
 
-.indeximg img {
+.indeximg {
+    display: block;
     width: 100%;
 }
 
 /* Footer Section */
 
 footer {
-    padding-left: 15px;
-    color: rgba(0, 0, 0, 0.708);
+    position: relative;
+    height: 150px;
+    background-color: black;
+    background-image: url(./images/footer.png);
+    background-size: cover;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
 }
 
+footer p {
+    padding: 0px 60px;
+    font-size: 20px;
+}
 
-
-
+footer img {
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 60px;
+}
