@@ -59,6 +59,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 18px;
+    border-top: 5px solid #cceced;
 }
 
 footer p {
