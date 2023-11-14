@@ -3,6 +3,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* UNIVERSAL STYLES */
+
 /* Header Section */
 
 header {
@@ -68,4 +70,27 @@ footer img {
     height: 60px;
     padding-top: 4px;
     padding-left: 60px;
+}
+
+/* INDIVIDUAL PAGE STYLES */
+
+/* Apartmanok Page */
+
+.apartmanokmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cceced;
+    padding: 10px;
+}
+
+.apartmanokbox {
+    padding: 20px;
+    text-align: center;
+}
+
+.apartmanokbox img {
+    width: 350px;
+    border-radius: 10px;
 }
