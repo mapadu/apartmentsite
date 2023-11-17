@@ -174,7 +174,7 @@ footer img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #cceced;
 }
 
@@ -246,7 +246,7 @@ footer img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #cceced;
 }
 
@@ -258,6 +258,44 @@ footer img {
 
 .latnivaloklinkbox {
     padding: 10px;
+}
+
+/* Rólunk Page */
+
+.rolammain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:#cceced;
+   
+}
+
+.rolamtext {
+    width: 500px;
+}
+
+.rolamimg {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Kapcsolat Page */
+
+.kapcsolatmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+.kapcsolattext img {
+    width: 48px; 
+}
+
+.kapcsolatimg {
+    
 }
 
 /* Media Quaeries */
