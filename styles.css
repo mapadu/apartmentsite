@@ -626,6 +626,16 @@ footer img {
     border-radius: 10px;
 }
 
+.telnumber a {
+    text-decoration: none;
+    color: black;
+}
+
+.telnumber a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
 .telboxes {
     display: flex;
 }
