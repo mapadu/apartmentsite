@@ -212,7 +212,7 @@ footer img {
 }
 
 .apartmandescription h2 {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 #apartman1 h2 {
@@ -222,6 +222,11 @@ footer img {
 }
 
 #apartman2 h2 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#apartman4 h2 {
     padding: 10px;
     border-radius: 10px;
 }
@@ -237,17 +242,58 @@ footer img {
     padding: 10px;
 }
 
+#apartman1b h2:hover {
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;  
+}
+
 #apartman2b h2 {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
 }
 
-#apartman1b h2:hover {
+#apartman4b h2 {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#apartman4b h2:hover {
     background-color: white;
     text-decoration: underline;
     text-underline-offset: 8px;  
 }
+
+#apartman1c h2 {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#apartman1c h2:hover {
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;  
+}
+
+#apartman2c h2 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#apartman2c h2:hover {
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#apartman4c h2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
 
 .jellemzok {
     display: flex; 
