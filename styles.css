@@ -175,14 +175,14 @@ footer img {
 
 /* Apartmanok Inside Page */
 
-.apartmanokinsidemain {
+.apartmanmain {
     background-color: #cceced;
     padding: 10px;
     display: block;
    
 }
 
-.apartmanoktext {
+.apartmantext {
     margin: auto;
     text-align: center;
     width: 800px;
@@ -215,23 +215,23 @@ footer img {
     font-size: 26px;
 }
 
-#apartman1 h2 {
+#apartman1a h2 {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
-#apartman2 h2 {
+#apartman2a h2 {
     padding: 10px;
     border-radius: 10px;
 }
 
-#apartman4 h2 {
+#apartman4a h2 {
     padding: 10px;
     border-radius: 10px;
 }
 
-#apartman2 h2:hover {
+#apartman2a h2:hover {
     background-color: white;
     text-decoration: underline;
     text-underline-offset: 8px;
