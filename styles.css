@@ -233,16 +233,35 @@ footer img {
     border-radius: 10px;
 }
 
-#apartman4a h2 {
-    padding: 10px;
-    border-radius: 10px;
-}
-
 #apartman2a h2:hover {
     background-color: white;
     text-decoration: underline;
     text-underline-offset: 8px;
 }
+
+#apartman3a h2 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#apartman3a h2:hover {
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#apartman4a h2 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#apartman4a h2:hover {
+    background-color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
 
 #apartman1b h2 {
     border-radius: 10px;
@@ -336,7 +355,7 @@ footer img {
 
   .mySlides img {
     vertical-align: middle;
-    height: 600px;
+    height: 532px;
     border-radius: 10px;
   }
   
