@@ -194,13 +194,12 @@ footer img {
     margin: auto;
     text-align: center;
     width: 800px;
-    padding: 20px;
 }
 
 .apartman {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0px 40px 0px;
+    margin: 40px 0px 40px 0px;
 }
 
 .apartmandescription  {
