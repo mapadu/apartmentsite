@@ -656,7 +656,49 @@ footer img {
     padding: 10px;
 }
 
-/* Rólunk Page */
+/* Transzfer Page */
+
+.transzfermain {
+    background-color: #bbebeb;
+    padding-bottom: 20px;
+}
+
+.transzfertext {
+    text-align: center;
+    padding: 20px;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.tablebox {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tablebox h3 {
+    font-size: 24px;
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    
+}
+
+
+
+/* Rólam Page */
 
 .rolammain {
     display: flex;
