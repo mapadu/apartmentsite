@@ -79,11 +79,11 @@ footer img {
 /* Index Page */
 
 .backgroundimg {
-    background-image: url(./images/main2.png);
+    background-image: url(./images/index/main3.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 .indexnav a {
